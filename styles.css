@@ -18,7 +18,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 42px;
-    color: #007aff;
+    color: #d74e56;
 }
 
 header p {
@@ -50,7 +50,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #007aff;
+    color: #d74e56;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00aaff;
+    color: #ab363e;
 }
 
 .container {
@@ -140,7 +140,7 @@ input:focus, textarea:focus {
 
 button {
     width: 100%;
-    background: #007aff;
+    background: #d74e56;
     color: white;
     padding: 18px;
     border: none;
@@ -151,7 +151,7 @@ button {
 }
 
 button:hover {
-    background: #005ecb;
+    background: #ab363e;
 }
 
 .company-logo-container {
@@ -225,4 +225,99 @@ button:hover {
     font-weight: bold;
     color: #ddd;
     text-align: center; /* Centers text relative to the logo */
+}
+.button-container {
+    margin-top: 4px; /* Adds spacing between text and button */
+}
+
+.certificate-button {
+    padding: 8px 16px; /* Smaller padding for a compact button */
+    font-size: 14px; /* Reduce font size */
+    background: #d74e56; /* Keep the background color consistent */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Slightly rounded corners */
+    cursor: pointer;
+    transition: background 0.3s;
+    width: auto; /* Adjusts button width dynamically */
+}
+
+.certificate-button:hover {
+    background: #ab363e; /* Darker shade on hover */
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove bullets for cleaner design */
+}
+
+ul li {
+    margin-bottom: 16px; /* Space between list items */
+    display: flex; /* Align content within list items */
+    flex-direction: column; /* Stack text and buttons vertically */
+    align-items: flex-start; /* Align content to the left */
+}
+p a {
+    color: #d74e56; /* Default link color */
+    text-decoration: none; /* Remove underline for a cleaner look */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+p a:hover {
+    color: #ab363e; /* Hover color */
+    text-decoration: underline; /* Optional: Add underline on hover for emphasis */
+}
+
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    grid-gap: 20px; /* Space between items */
+}
+
+.certificate-item {
+    background-color: #4f4f4f;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.certificate-button {
+    background-color: #d74e56;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.certificate-button:hover {
+    background-color: #b03e46;
+}
+
+#interests .interests-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#interests .interests-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#interests .interests-image img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
