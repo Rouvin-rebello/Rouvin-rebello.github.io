@@ -9,24 +9,23 @@
     <meta property="og:image" content="your-image-url.jpg">
     <meta property="og:type" content="website">
 
-    <!-- Google tag (gtag.js) -->
+    <!-- CSP Header -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; img-src 'self' https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com; form-action 'self' https://formsubmit.co;">
+
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3QZ6S8RR0N"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-3QZ6S8RR0N');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3QZ6S8RR0N');
     </script>
-
 
     <title>Rouvin Rebello</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <!-- CSP Header -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; form-action 'self' https://formsubmit.co;">
 </head>
 <body>
     <header>
