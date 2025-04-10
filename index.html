@@ -9,6 +9,9 @@
     <meta property="og:image" content="your-image-url.jpg">
     <meta property="og:type" content="website">
     <title>Rouvin Rebello</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <!-- CSP Header -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; form-action 'self' https://formsubmit.co;">
@@ -16,7 +19,7 @@
 <body>
     <header>
         <h1>Rouvin Rebello</h1>
-        <p>BSc. Computer Science Co-op @Brock University | Ex. IT Operations Intern @Interac | Ex. Data Management & Analytics Associate @MTO</p>
+        <p>BSc. Computer Science Co-op @Brock University | Ex. IT Operations @Interac, Data Management & Analytics @MTO</p>
     </header>
     <nav>
         <ul>
@@ -35,294 +38,527 @@
     <div id="about" class="section">
         <div class="about-content">
             <div class="about-image">
-                <img src="web_pic.jpg" alt="About Me Image">
+                <img src="Public/web_pic.jpg" alt="About Me Image">
             </div>
             <div class="about-text">
                 <h2>About Me</h2>
-                <p>Results-Driven Computer Science Student | IT Operations Intern | Data Analyst | Technical Support</p>
-                <p>Rouvin Rebello is a dedicated Computer Science student at Brock University, graduating in June 2025 with honors. Recognized on the Dean's Honour List and a recipient of the Brock Scholars Award, Rouvin has a strong academic foundation with a 3.9 GPA.</p>
-                <p>During his internship at Interac Corporation, Rouvin implemented automation solutions that reduced IT operations development time by 25%, and optimized incident management. He also contributed to the Ontario Ministry of Transportation by developing Power BI dashboards that enhanced resource allocation and risk management.</p>
-                <p>With expertise in Python, Java, Splunk, Power BI, and ServiceNow, Rouvin is skilled in data management, technical support, and process automation. He’s passionate about leveraging technology to drive efficiency and innovation. Connect with Rouvin on <a href="https://www.linkedin.com/in/rouvin-rebello/" target="_blank">LinkedIn</a> to explore collaboration opportunities.</p>
+                <div class="title-tag">Results-Driven Computer Science Student | IT Operations Intern | Data Analyst | Technical Support</div>
+                <div class="about-paragraphs">
+                    <p>Hi, I’m Rouvin Rebello, a dedicated Computer Science student at Brock University, graduating with honours in June 2025. I’ve been recognized on the Dean’s Honour List and awarded the Brock Scholars Award, maintaining a 3.9 GPA.</p>
+                    <p>During my internship at Interac Corporation, I implemented automation solutions that cut IT operations development time by 25% and improved incident management workflows. I also worked with the Ontario Ministry of Transportation, where I developed Power BI dashboards that helped enhance resource allocation and risk management.</p>
+                    <p>I’m experienced in Python, Java, Splunk, Power BI, and ServiceNow, and I enjoy working at the intersection of data, technology, and operations. Whether it's solving technical problems or automating workflows, I’m passionate about using tech to drive efficiency and innovation. Let’s connect on <a href="https://www.linkedin.com/in/rouvin-rebello/" target="_blank">LinkedIn</a>, I’m always open to collaboration and new opportunities! </p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Education Section -->
-<div id="education" class="section">
-    <h2>Education</h2>
-    <div class="education-header">
-        <div class="education-logo">
-            <img src="Brock_logo.png" alt="Brock University Logo">
-            <span>Brock University</span>
+    <div id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-content">
+            <div class="education-header">
+                <div class="education-logo">
+                    <img src="Public/Brock_logo.png" alt="Brock University Logo">
+                    <span>Brock University</span>
+                </div>
+                <div class="location">St. Catharines, ON</div>
+            </div>
+
+            <div class="education-details">
+                <div class="education-item">
+                    <span class="education-label">Program</span>
+                    <span class="education-value">BSc. Computer Science (Honours) Co-op</span>
+                </div>
+
+                <div class="education-item">
+                    <span class="education-label">Expected Graduation</span>
+                    <span class="education-value">June 2025</span>
+                </div>
+
+                <div class="education-item">
+                    <span class="education-label">GPA</span>
+                    <span class="education-value">3.9/4.0</span>
+                </div>
+
+                <div class="education-awards">
+                    <span class="award-tag">Dean's Honour List 2021</span>
+                    <span class="award-tag">Dean's Honour List 2022</span>
+                    <span class="award-tag">Brock Scholars Award</span>
+                </div>
+
+                <div class="education-item">
+                    <span class="education-label">Key Coursework</span>
+                    <span class="education-value">AI • Algorithms • Cyber Security • Data Structures • DBMS • Software Engineering</span>
+                </div>
+
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1x-rrb8UKNO3ayFNli9cSjsmBkz69G6_e/view?usp=drive_link">
+                        View Dean's Honour List Awards
+                    </button>
+                </div>
+            </div>
         </div>
-        <p>St. Catharines, ON</p>
     </div>
-    <p><strong>Bachelor of Science (Honours) Computer Science Co-op</strong> (Anticipated June 2025)</p>
-    <p><strong>Awards:</strong> Dean's Honour List 2021 & 2022 | Brock Scholars Award</p>
-    <div class="button-container">
-        <button class="certificate-button" data-url="https://drive.google.com/file/d/1x-rrb8UKNO3ayFNli9cSjsmBkz69G6_e/view?usp=drive_link">View Dean's Honour List Awards</button>
-    </div>
-    <p><strong>Cumulative GPA:</strong> 3.9/4.0</p>
-    <p><strong>Relevant Coursework:</strong> AI, Algorithms, Cyber Security, Data Structures, DBMS, Software Eng., Calculus, Statistics, Accounting, Finance.</p>
-</div>
-
-
 
     <!-- Experience Section -->
     <div id="experience" class="section">
         <h2>Experience</h2>
-        <div class="company-logo-container">
-            <img src="Interac_logo.png" alt="Interac Logo" class="company-logo">
-            <span class="company-name"><strong>Interac Corporation</strong> – May 2024 - August 2024 (Toronto, Canada)</span>
-        </div>
-        <ul>
-            <li><i>IT Operations Intern</i></li>
-            <li>Developed and implemented automation solutions using ETL principles, Splunk, ServiceNow, JIRA, and MS Power Apps, streamlining incident reporting and customer experience metrics, resulting in a 25% reduction in IT operations development time.</li>
-            <li>Automated the calculation of Mean Time to Restore (MTTR) incidents and KPIs using Excel VBA, reducing reporting time by 30%. Documented SLA metrics and proposed customer experience metrics to improve performance tracking and decision-making.</li>
-            <li>Streamlined incident management by coordinating with major financial institutions and managing ServiceNow tickets, reducing team effort by 16%. Leveraged Splunk and AppDynamics to identify incidents from excessive alerts, minimizing review efforts.</li>
-            <li></li>
-            <li></li>
-        </ul>
-
-        <div class="company-logo-container">
-            <img src="MTO_logo.jpg" alt="MTO Logo" class="company-logo">
-            <span class="company-name"><strong>Ontario Ministry of Transportation</strong> – January 2023 - September 2023 (St. Catharines, Canada)</span>
-        </div>
-        <ul>
-            <li><i>Data Management and Analytics Associate</i></li>
-            <li>Optimized resource allocation for multimillion-dollar investments/business assets by developing an extensive Power BI dashboard employing AGILE concepts, improving risk management, inter-ministry collaboration, and insight-driven decisions.</li>
-            <li>Ensured alignment of investment priorities with government matrices by devising a priority scoring framework that integrated business and technical factors, resulting in accurate and consistent investment evaluation.</li>
-            <li>Streamlined data management processes by performing regular updates and maintenance on SharePoint webpages, simplifying data collection with MS Forms and Excel, implementing automated calculations, and ensuring data integrity with Power Query.</li>
-            <li>
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1iVCO1HCX2WZ_x37azlKE7qSJUyrmkKq3/view?usp=sharing">View Recommendation Letter</button>
+        <div class="experience-container">
+            <div class="experience-card">
+                <div class="company-logo-container">
+                    <img src="Public/Interac_logo.png" alt="Interac Logo" class="company-logo">
+                    <div class="company-info">
+                        <span class="company-name"><strong>Interac Corporation</strong>May 2024 - August 2024</span>
+                        <span class="location">&nbsp&nbsp&nbsp&nbsp&nbsp Toronto, Canada</span>
+                    </div>
+                </div>
+                <span class="role-tag">IT Operations Intern</span>
+                <ul>
+                    <li>Developed and implemented automation solutions using ETL principles, Splunk, ServiceNow, JIRA, and MS Power Apps, to streamline incident reporting and customer experience metrics, resulting in a 25% reduction in IT operations development time.</li>
+                    <li>Automated the calculation of Mean Time to Restore (MTTR) incidents and KPIs using Excel VBA, reducing reporting time by 30%; documented SLA metrics, and proposed customer experience metrics improving performance tracking and decision-making.</li>
+                    <li>Streamlined incident management by coordinating with major financial institutions and managing ServiceNow tickets, reducing team effort by 16%. Leveraged Splunk and AppDynamics to identify incidents from excessive alerts, minimizing review efforts.</li>
+                </ul>
             </div>
-            </li>
-            <li></li>
-            <li></li>
-        </ul>
 
-        <div class="company-logo-container">
-            <img src="Boushahri_logo.png" alt="Boushahri Logo" class="company-logo">
-            <span class="company-name"><strong>Boushahri Group Trading Co.</strong> – July 2022 - August 2022 (Salmiya, Kuwait)</span>
-        </div>
-        <ul>
-            <li><i>IT Support</i></li>
-            <li>Supported company network standards and reduced user effort by configuring PCs with essential drivers and applications (Sophos antivirus, Adobe, Outlook), streamlining operations and enhancing user experience.</li>
-            <li>Ensured seamless data flow and connectivity by monitoring company assets, sensors, and data links with PRTG (Paessler Router Traffic Grapher), maintaining uninterrupted data flow and system reliability.</li>
-            <li>Enhanced help desk efficiency by managing various tasks through a ticketing system, including system updates, printer management, access point installation, and CAT6 cabling, leading to streamlined operations and improved service quality.</li>
-            <li>
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1MIO7PFnGNlmxOKd-ppObVUBbWBQxz9op/view?usp=drive_link">View Recommendation Letter</button>
+            <div class="experience-card">
+                <div class="company-logo-container">
+                    <img src="Public/MTO_logo.jpg" alt="MTO Logo" class="company-logo">
+                    <div class="company-info">
+                        <span class="company-name"><strong>Ontario Ministry of Transportation</strong>January 2023 - September 2023</span>
+                        <span class="location">&nbsp&nbsp&nbsp&nbsp&nbsp St. Catharines, Canada</span>
+                    </div>
+                </div>
+                <span class="role-tag">Data Management and Analytics Associate</span>
+                <ul>
+                    <li>Optimized resource allocation for multimillion-dollar investments/ business assets by developing an extensive Power BI dashboard employing AGILE concepts, leading to improved risk management, inter-ministry collaboration, and insight-driven decisions.</li>
+                    <li>Ensured alignment of investment priorities with government matrices by devising a priority scoring framework that integrated business and technical factors, resulting in accurate and consistent investment evaluation.</li>
+                    <li>Streamlined data management processes by performing regular updates and maintenance on SharePoint webpages, simplifying data collection with MS Forms and Excel, implementing automated calculations, and ensuring data integrity with Power Query</li>
+                    <div class="button-container">
+                        <button class="certificate-button" data-url="https://drive.google.com/file/d/1iVCO1HCX2WZ_x37azlKE7qSJUyrmkKq3/view?usp=sharing">View Recommendation Letter</button>
+                    </div>
+                </ul>
             </div>
-            </li>
-            <li></li>
-            <li></li>
-        </ul>
 
-        <div class="company-logo-container">
-            <img src="Imperial_logo.png" alt="Imperial Logo" class="company-logo">
-            <span class="company-name"><strong>Imperial Group W.L.L.</strong> – May 2022 - June 2022 (Subhan, Kuwait)</span>
-        </div>
-        <ul>
-            <li><i>Technical Support</i></li>
-            <li>Updated outdated computer system hardware through SSD, RAM, and battery installation alongside performing software updates, improving adherence to security standards and enhanced intrusion prevention.</li>
-            <li>Enhanced operating system performance by installing key applications such as Microsoft Office, SharePoint, and Enterprise Vault, improving workflow effectiveness and system performance.</li>
-            <li>Resolved customer issues by providing technical support, troubleshooting problems, and conducting root cause analysis, effectively addressing issues and boosting customer satisfaction.</li>
-            <li>
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1HWiujE_kj559He2qIQp_XYAkoHbtK6ZL/view?usp=drive_link">View Recommendation Letter</button>
+            <div class="experience-card">
+                <div class="company-logo-container">
+                    <img src="Public/Boushahri_logo.png" alt="Boushahri Logo" class="company-logo">
+                    <div class="company-info">
+                        <span class="company-name"><strong>Boushahri Group Trading Co.</strong>July 2022 - August 2022</span>
+                        <span class="location">&nbsp&nbsp&nbsp&nbsp&nbsp Salmiya, Kuwait</span>
+                    </div>
+                </div>
+                <span class="role-tag">IT Support</span>
+                <ul>
+                    <li>Supported company network standards and reduced user effort by configuring PCs with essential drivers and applications (Sophos antivirus, Adobe, Outlook), resulting in streamlined operations and enhanced user experience.</li>
+                    <li>Ensured seamless data flow and connectivity by monitoring company assets, sensors, and data links with PRTG (Paessler Router Traffic Grapher), maintaining uninterrupted data flow and system reliability.</li>
+                    <li>Enhanced help desk efficiency by managing various tasks through a ticketing system, including system updates, printer management, access point installation, and CAT6 cabling, leading to streamlined operations and improved service quality.</li>
+                    <div class="button-container">
+                        <button class="certificate-button" data-url="https://drive.google.com/file/d/1MIO7PFnGNlmxOKd-ppObVUBbWBQxz9op/view?usp=drive_link">View Recommendation Letter</button>
+                    </div>
+                </ul>
             </div>
-            </li>
-            <li></li>
-            <li></li>
-        </ul>
+
+            <div class="experience-card">
+                <div class="company-logo-container">
+                    <img src="Public/Imperial_logo.png" alt="Imperial Logo" class="company-logo">
+                    <div class="company-info">
+                        <span class="company-name"><strong>Imperial Group W.L.L.</strong>May 2022 - June 2022</span>
+                        <span class="location">&nbsp&nbsp&nbsp&nbsp&nbsp Subhan, Kuwait</span>
+                    </div>
+                </div>
+                <span class="role-tag">Technical Support</span>
+                <ul>
+                    <li>Updated outdated computer system hardware through SSD, RAM, and battery installation alongside performing software updates, improving adherence to security standards, and enhanced intrusion prevention.</li>
+                    <li>Enhanced operating system performance by installing key applications such as Microsoft Office, SharePoint, and Enterprise Vault, improving workflow effectiveness and system performance.</li>                    
+                    <li>Resolved customer issues by providing technical support, troubleshooting problems, and conducting root cause analysis, effectively addressing issues and boosting customer satisfaction.</li>                    
+                    <div class="button-container">
+                        <button class="certificate-button" data-url="https://drive.google.com/file/d/1HWiujE_kj559He2qIQp_XYAkoHbtK6ZL/view?usp=drive_link">View Recommendation Letter</button>
+                    </div>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!-- Projects Section -->
     <div id="projects" class="section">
         <h2>Projects</h2>
-        <p><strong>AccuTrack (SaaS)</strong> – January 2025 - Present</p>
-        <ul>
-            <li>Developing a web-based accounting software with finance management and report generation features using React and TypeScript.</li>
-            <li>Leading agile development as Product Owner through sprint planning, user stories, and tools like Jira to enhance collaboration.</li>
-            <li>Delivering AI-powered financial forecasting, providing small businesses with actionable insights for long-term growth.</li>
-            <li></li>
-            <li></li>
-        </ul>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>AccuTrack (SaaS)</h3>
+                <ul>
+                    <li>Developing a web-based accounting software with finance management and report generation features.</li>
+                    <li>Leading agile development as Product Owner through sprint planning and user stories.</li>
+                    <li>Delivering AI-powered financial forecasting for actionable business insights.</li>
+                </ul>
+                <div class="project-technologies">
+                    <span class="tech-tag">Software Development</span>
+                    <span class="tech-tag">Project Management</span>
+                    <span class="tech-tag">Agile Methodologies</span>
+                    <span class="tech-tag">Scrum</span>
+                </div>
+            </div>
 
-        <p><strong>Portfolio Website with GitHub Pages</strong> – December 2024 - January 2025</p>
-        <ul>
-            <li>Designed and hosted a responsive portfolio website using HTML, CSS, and GitHub Pages to showcase my skills, projects, and professional experiences effectively.</li>
-            <li>Created engaging content, including an "About Me" section, project highlights, and an interactive contact form, while optimizing for SEO to enhance my professional brand identity and online visibility.</li>
-            <li>Structured the website to highlight technical expertise through sections on skills, certifications, and experience, leveraging dynamic visuals and streamlined navigation to improve user experience and engagement.</li>
-            <li>
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://github.com/Rouvin-rebello/Rouvin-rebello.github.io">Go to GitHub</button>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <ul>
+                    <li>Designed and hosted a responsive portfolio website using modern web technologies.</li>
+                    <li>Created engaging content while optimizing for SEO and professional branding.</li>
+                    <li>Implemented dynamic visuals and streamlined navigation for better UX.</li>
+                </ul>
+                <div class="project-technologies">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">GitHub Pages</span>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://github.com/Rouvin-rebello/Rouvin-rebello.github.io">View Project</button>
+                </div>
             </div>
-            </li>
-            <li></li>
-            <li></li>
-            
-        </ul>
 
-        <p><strong>Semantic Coverage with LLMS</strong> – May 2024 - August 2024</p>
-        <ul>
-            <li>Identified limitations of traditional metrics, developed a semantic coverage model, and improved unit test accuracy across projects.</li>
-            <li>Leveraged LLMs like ChatGPT to automate test case generation, boosting reliability and efficiency.</li>
-            <li>Conducted detailed GitHub evaluations, showcasing semantic coverage's superiority in capturing nuanced test behaviors.</li>
-            <li>
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://github.com/Rouvin-rebello/COSC_3P99/tree/main/11_Brock_COSC_3P99">Go to GitHub</button>
+            <div class="project-card">
+                <h3>Semantic Coverage with LLMS</h3>
+                <ul>
+                    <li>Identified limitations of traditional metrics, developed a semantic coverage model, and improved unit test accuracy across projects.</li>
+                    <li>Leveraged LLMs like ChatGPT to automate test case generation, boosting reliability and efficiency.</li>
+                    <li>Conducted detailed GitHub evaluations, showcasing semantic coverage's superiority in capturing nuanced test behaviors.</li>
+                </ul>
+                <div class="project-technologies">
+                    <span class="tech-tag">LLMs</span>
+                    <span class="tech-tag">Software Testing</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">LaTex</span>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://github.com/Rouvin-rebello/COSC_3P99/tree/main/11_Brock_COSC_3P99">Go to GitHub</button>
+                </div>
             </div>
-            </li>
-            <li></li>
-            <li></li>
-        </ul>
-        <p><strong>Genetic Algorithm (GA) for Cryptanalysis</strong> – September 2023 - December 2023</p>
-        <ul>
-            <li>Implemented a GA to optimize decryption key evolution using K-tournament selection, fitness evaluation, crossovers, and elitism.</li>
-            <li>Conducted thorough statistical analysis utilizing Mann-Whitney U Tests to assess population and evolutionary convergence.</li>
-            <li>Authored an IEEE formatted report, detailing methodologies, setup, and results, effectively communicating findings.</li>
-            <li>
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://github.com/Rouvin-rebello/Genetic-Algorithm">Go to GitHub</button>
-            </div>
-            </li>
-            <li></li>
-            <li></li>
-        </ul>
 
-        <p><strong>Bank Transaction System - Python & MySQL</strong> – December 2020 - March 2021</p>
-        <ul>
-            <li>Developed a Python-MySQL bank transaction system with additional currency conversion and cheque functionality.</li>
-            <li>Led a team in implementing a secure interface, managing MySQL data to meet the specifications of a genuine bank system.</li>
-            <li>Demonstrated strong project management skills, hosting progress discussions, and ensuring task completion under pressure.</li>
-            <li>
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://github.com/Rouvin-rebello/Transaction-system">Go to GitHub</button>
+            <div class="project-card">
+                <h3>Genetic Algorithm (GA) for Cryptanalysis</h3>
+                <ul>
+                    <li>Implemented a GA to optimize decryption key evolution using K-tournament selection, fitness evaluation, crossovers, and elitism.</li>
+                    <li>Conducted thorough statistical analysis utilizing Mann-Whitney U Tests to assess population and evolutionary convergence.</li>
+                    <li>Authored an IEEE formatted report, detailing methodologies, setup, and results, effectively communicating findings.</li>
+                </ul>
+                <div class="project-technologies">
+                    <span class="tech-tag">Data Analysis</span>
+                    <span class="tech-tag">Genetic Algorithms</span>
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">LaTex</span>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://github.com/Rouvin-rebello/Genetic-Algorithm">Go to GitHub</button>
+                </div>
             </div>
-            </li>
-            <li></li>
-            <li></li>
-        </ul>
+
+
+            <div class="project-card">
+                <h3>Bank Transaction System - Python & MySQL</h3>
+                <ul>
+                    <li>Developed a Python-MySQL bank transaction system with additional currency conversion and cheque functionality.</li>
+                    <li>Led a team in implementing a secure interface, managing MySQL data to meet the specifications of a genuine bank system.</li>
+                    <li>Demonstrated strong project management skills, hosting progress discussions, and ensuring task completion under pressure.</li>
+                </ul>
+                <div class="project-technologies">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://github.com/Rouvin-rebello/Transaction-system">Go to GitHub</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Professional Development Section -->
-<div id="professional-development" class="section">
-    <h2>Professional Development</h2>
-    <div class="certificates-grid">
-        <div class="certificate-item">
-            <strong>Azure DevOps for Beginners</strong> LinkedIn (2024)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/172NDOCY903FlEs8qZGt72zS17NUYQQy9/view">View Certificate</button>
+    <div id="professional-development" class="section">
+        <h2>Professional Development</h2>
+        <div class="certificates-grid">
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Azure DevOps for Beginners</div>
+                    <div class="certificate-issuer">
+                        <span>LinkedIn</span>
+                    </div>
+                    <div class="certificate-date">2024</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/172NDOCY903FlEs8qZGt72zS17NUYQQy9/view">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>IT Security Foundations: Operating System Security</strong> LinkedIn (2023)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1ZmF2bq7ptePrw_v8DRs3H-UWcL1JN2d9/view?usp=sharing">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">IT Security Foundations: Operating System Security</div>
+                    <div class="certificate-issuer">
+                        <span>LinkedIn</span>
+                    </div>
+                    <div class="certificate-date">2023</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1ZmF2bq7ptePrw_v8DRs3H-UWcL1JN2d9/view?usp=sharing">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Excel Essential Training (MS 365)</strong> LinkedIn (2023)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1Kj6-Vg2gq2DnStOpQUhAd3QVpzEPPt8O/view">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Excel Essential Training (MS 365)</div>
+                    <div class="certificate-issuer">
+                        <span>LinkedIn</span>
+                    </div>
+                    <div class="certificate-date">2023</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1Kj6-Vg2gq2DnStOpQUhAd3QVpzEPPt8O/view">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Call It Out: Racism, Racial Discrimination and Human Rights</strong> Ontario Human Rights Commission (2023)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1-5ydzZboB9QwyMp2oohPBeOz6AakU4Qf/view?usp=sharing">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Call It Out: Racism, Racial Discrimination and Human Rights</div>
+                    <div class="certificate-issuer">
+                        <span>Ontario Human Rights Commission</span>
+                    </div>
+                    <div class="certificate-date">2023</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1-5ydzZboB9QwyMp2oohPBeOz6AakU4Qf/view?usp=sharing">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Career Essentials in Data Analysis</strong> Microsoft & LinkedIn (2023)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1oUlsjTA6F_leKXKdZs7Sp_VWG0JfPgSJ/view?usp=sharing">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Career Essentials in Data Analysis</div>
+                    <div class="certificate-issuer">
+                        <span>Microsoft & LinkedIn</span>
+                    </div>
+                    <div class="certificate-date">2023</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1oUlsjTA6F_leKXKdZs7Sp_VWG0JfPgSJ/view?usp=sharing">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Learning Data Analytics Part 2: Extending and Applying Core Knowledge</strong> LinkedIn (2023)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1f68Bk00i9GqtUyEoOrZyZb4Q3VhI8DFP/view?usp=sharing">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Learning Data Analytics Part 2: Extending and Applying Core Knowledge</div>
+                    <div class="certificate-issuer">
+                        <span>LinkedIn</span>
+                    </div>
+                    <div class="certificate-date">2023</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1f68Bk00i9GqtUyEoOrZyZb4Q3VhI8DFP/view?usp=sharing">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Learning Data Analytics: 1 Foundations</strong> LinkedIn (2023)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1AxSKH2Pfiatu7kcFYla92oGpS8A_5d1u/view?usp=sharing">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Learning Data Analytics: 1 Foundations</div>
+                    <div class="certificate-issuer">
+                        <span>LinkedIn</span>
+                    </div>
+                    <div class="certificate-date">2023</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1AxSKH2Pfiatu7kcFYla92oGpS8A_5d1u/view?usp=sharing">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Dean's Honour List - Year Two</strong> Brock University (2022)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1u7I6A9VyOZHpPVrVvHOJl8j2sYCYp47b/view?usp=sharing">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Dean's Honour List - Year Two</div>
+                    <div class="certificate-issuer">
+                        <span>Brock University</span>
+                    </div>
+                    <div class="certificate-date">2022</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1u7I6A9VyOZHpPVrVvHOJl8j2sYCYp47b/view?usp=sharing">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>CCNA 200 - 301 Network Fundamentals</strong> SkillUp (2022)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1zQa-MBONJ5Bsd484Zcto5JjvUeYSQ7vF/view">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">CCNA 200 - 301 Network Fundamentals</div>
+                    <div class="certificate-issuer">
+                        <span>SkillUp</span>
+                    </div>
+                    <div class="certificate-date">2022</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1zQa-MBONJ5Bsd484Zcto5JjvUeYSQ7vF/view">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Charles Sturt University CISM Prep</strong> IT Masters (2022)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1H33FOtnJ5KjmxoqdRcxB3fCOrFfowFsO/view">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Charles Sturt University CISM Prep</div>
+                    <div class="certificate-issuer">
+                        <span>IT Masters</span>
+                    </div>
+                    <div class="certificate-date">2022</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1H33FOtnJ5KjmxoqdRcxB3fCOrFfowFsO/view">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Dean's Honour List - Year One</strong> Brock University (2021)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/1h4c6ueJzL-bWCAwqeFUNzKwkLfYYkCqB/view?usp=drive_link">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Dean's Honour List - Year One</div>
+                    <div class="certificate-issuer">
+                        <span>Brock University</span>
+                    </div>
+                    <div class="certificate-date">2021</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/1h4c6ueJzL-bWCAwqeFUNzKwkLfYYkCqB/view?usp=drive_link">View Certificate</button>
+                </div>
             </div>
-        </div>
-        <div class="certificate-item">
-            <strong>Harvard CS50: Intro to Computer Science</strong> Edx (2020)
-            <div class="button-container">
-                <button class="certificate-button" data-url="https://drive.google.com/file/d/19XsWZjq9wbJwxOz7u1Kwx4rJnztVc2uZ/view">View Certificate</button>
+
+            <div class="certificate-item">
+                <div class="certificate-details">
+                    <div class="certificate-title">Harvard CS50: Intro to Computer Science</div>
+                    <div class="certificate-issuer">
+                        <span>Edx</span>
+                    </div>
+                    <div class="certificate-date">2020</div>
+                </div>
+                <div class="button-container">
+                    <button class="certificate-button" data-url="https://drive.google.com/file/d/19XsWZjq9wbJwxOz7u1Kwx4rJnztVc2uZ/view">View Certificate</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-
 
     <!-- Skills Section -->
     <div id="skills" class="section">
         <h2>Skills</h2>
-        <p><strong>Programming:</strong> Python (NumPy, Pandas, SciPy, Matplotlib), Java, VBA, HTML, PHP, CSS, JavaScript, MySQL, LaTeX</p>
-        <p><strong>Tools:</strong> Splunk, Tableau, Power BI, Power Query, Power Automate, Service Now, SSMS, Confluence, Jira, Excel</p>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        Python
+                        <div class="skill-subtext">NumPy, Pandas, SciPy, Matplotlib</div>
+                    </div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">HTML/CSS</div>
+                    <div class="skill-item">PHP</div>
+                    <div class="skill-item">MySQL</div>
+                    <div class="skill-item">LaTeX</div>
+                    <div class="skill-item">VBA</div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <div class="skill-list">
+                    <div class="skill-item">Splunk</div>
+                    <div class="skill-item">Tableau</div>
+                    <div class="skill-item">Power BI</div>
+                    <div class="skill-item">Power Query</div>
+                    <div class="skill-item">Power Automate</div>
+                    <div class="skill-item">ServiceNow</div>
+                    <div class="skill-item">SSMS</div>
+                    <div class="skill-item">Confluence</div>
+                    <div class="skill-item">Jira</div>
+                    <div class="skill-item">Excel</div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Interests Section -->
-<div id="interests" class="section">
-    <h2>Interests</h2>
-    <div class="interests-content">
-        <div class="interests-text">
-            <p><strong>Mechanical Keyboards:</strong> Experienced in building custom mechanical keyboards with meticulous attention to detail and focus on acoustics for enhanced performance.</p>
-            <p><strong>Collaboration and Communication:</strong> Skilled in effectively engaging and collaborating with team members, fostering open communication and teamwork to achieve goals.</p>
-            <p><strong>Technological Aptitude:</strong> Keeping up with mechanical aspects of emerging technologies.</p>
-        </div>
-        <div class="interests-image">
-            <img src="Keeb.png" alt="Mechanical Keyboard" />
+    <div id="interests" class="section">
+        <h2>Interests</h2>
+        <div class="interests-content">
+            <div class="interests-text">
+                <div class="interest-card">
+                    <div class="interest-title">
+                        <span>Mechanical Keyboards</span>
+                    </div>
+                    <div class="interest-description">
+                        Experienced in building custom mechanical keyboards with meticulous attention to detail and focus on acoustics for enhanced performance.
+                    </div>
+                </div>
+                
+                <div class="interest-card">
+                    <div class="interest-title">
+                        <span>Collaboration and Communication</span>
+                    </div>
+                    <div class="interest-description">
+                        Skilled in effectively engaging and collaborating with team members, fostering open communication and teamwork to achieve goals.
+                    </div>
+                </div>
+                
+                <div class="interest-card">
+                    <div class="interest-title">
+                        <span>Technological Aptitude</span>
+                    </div>
+                    <div class="interest-description">
+                        Keeping up with mechanical aspects of emerging technologies and their practical applications in modern computing.
+                    </div>
+                </div>
+            </div>
+            <div class="interests-image">
+                <img src="Public/Keeb.png" alt="Mechanical Keyboard" />
+            </div>
         </div>
     </div>
-</div>
 
     <!-- Contact Section -->
     <div id="contact" class="section">
         <h2>Contact</h2>
-        <form action="https://formsubmit.co/fb3f23c9b37185633b1506a211a23f2c" method="POST">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <p>Email: rouvindl67@gmail.com | <a href="https://www.linkedin.com/in/rouvin-rebello/" target="_blank">LinkedIn Profile</a></p>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="https://formsubmit.co/fb3f23c9b37185633b1506a211a23f2c" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <div class="contact-method">
+                    <div class="contact-details">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">rouvindl67@gmail.com</span>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-details">
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">
+                            <a href="https://www.linkedin.com/in/rouvin-rebello/" target="_blank">linkedin.com/in/rouvin-rebello</a>
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-details">
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">
+                            <a href="https://github.com/Rouvin-rebello" target="_blank">github.com/Rouvin-rebello</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 <script src="scripts.js"></script>
 </body>
 </html>
